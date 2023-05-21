@@ -4,6 +4,7 @@ Remove access codes from YubiKey OTP slots when you have lost or forgotten the c
 ## Prerequisites
 Instructions for Ubuntu 20.04+
 ```
+sudo apt update
 sudo apt install -y libusb-dev pcscd libpcsclite-dev libccid python3-dev python3-venv python3-pip swig gcc python3-wheel git
 git clone https://github.com/covertsh/yoacr.git
 cd yoacr/
